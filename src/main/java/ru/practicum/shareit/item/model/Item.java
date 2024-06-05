@@ -22,4 +22,5 @@ public class Item {
     private Long owner;
 
     private ItemRequest request;
+
 }
