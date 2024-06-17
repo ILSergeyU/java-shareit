@@ -5,10 +5,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+
 import ru.practicum.shareit.item.exceptions.ItemNotBelongUserException;
 import ru.practicum.shareit.item.exceptions.ItemNotContainFieldException;
 import ru.practicum.shareit.item.exceptions.ItemNotFoundException;
 import ru.practicum.shareit.item.exceptions.ItemSearchTextNotFoundException;
+
 import ru.practicum.shareit.user.userExceptions.UserDuplicateEmailException;
 import ru.practicum.shareit.user.userExceptions.UserEmailNotFoundException;
 import ru.practicum.shareit.user.userExceptions.UserNotFoundException;

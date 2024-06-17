@@ -1,8 +1,10 @@
 package ru.practicum.shareit.item.repository;
 
 import org.springframework.stereotype.Repository;
+
 import ru.practicum.shareit.item.exceptions.ItemNotBelongUserException;
 import ru.practicum.shareit.item.exceptions.ItemNotFoundException;
+
 import ru.practicum.shareit.item.model.Item;
 
 import java.util.*;
@@ -24,6 +26,7 @@ public class ItemRepositoryImpl implements ItemRepository {
     @Override
     public Item findItem(Long itemId) {
         return items.get(itemId);
+
     }
 
     @Override
